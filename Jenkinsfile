@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("firstproject-hellonode")
+        app = docker.build("parankusham-pranay/hellonode")
     }
 
     stage('Test image') {
